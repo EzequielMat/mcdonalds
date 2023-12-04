@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
 }
 
-.justify-content {
+.justify-content-center{
     justify-content: center;
 }
 
@@ -87,7 +87,7 @@ header nav ul li ul {
 }
 
 header nav ul li ul li {
-
+    background-color: white;
     display: flex;
     border-radius: 8px;
     border: solid rgb(240, 240, 240) 1px;
@@ -101,6 +101,7 @@ header nav ul li:hover ul {
 header nav ul li ul li:hover {
     border-top: none;
     background-color: #ffbc0d;
+
 }
 .btn{
     border: none;
@@ -108,4 +109,37 @@ header nav ul li ul li:hover {
     padding: 8px 14px;
     background-color: #ffbc0d;
     font-weight: bold;
+}
+.portada{
+    background-image: url(../img/grande.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 577px;
+}
+.combo{
+    margin-left: 150px;
+    color: #565657;
+    margin-bottom: 150px;
+    width: 12%;
+}
+.descubir{
+    width: 100%;
+    border: none;
+    background-color: #dcdcdc;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card2{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.col-2 {
+text-align: center;
+color: #565657;
+width: 48%;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 0 0 14px rgb(194, 193, 193);
 }
